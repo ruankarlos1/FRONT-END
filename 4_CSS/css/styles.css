@@ -5,3 +5,28 @@ body{
 h3{
     color:green;
 }
+
+/* como fazer comentarios */
+/*classe paragraph*/
+.paragraph{
+    background-color: lightblue;
+    color: blue;
+    padding: 5px;
+}
+
+/*id */
+#titulo-principal{
+    color:red;
+    padding: 15px;
+    background-color: yellow;
+}
+/* ordem de prioridade */
+h2{
+    border-bottom: 2px solid red;
+}
+.titulo2{
+    border-bottom: 2px solid blue;
+}
+#titulo1{
+    border-bottom: 2px solid green;
+}
