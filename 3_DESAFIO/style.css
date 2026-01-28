@@ -1,0 +1,75 @@
+body {
+    
+    background-size: cover;      /*  a imagem cobrir a tela toda */
+    background-attachment: fixed; /* A imagem fica parada enquanto você rola o site */
+    background-color: #eee7e7;      /* Cor de reserva caso a imagem não carregue */
+}
+h1{
+    color:white; /*cor do texto preta*/
+    text-align: center;/*alinha o texto ao centro*/
+    background-color: black; /*cor de fundo azul claro*/
+
+}
+h2{
+    color: #000000; /*cor do texto preta*/
+    text-align: center;/*alinha o texto ao centro*/
+    font-style: italic; /* Deixa o texto em itálico */
+}
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse; /* Remove espaços entre as bordas das células */
+    width: 50%; /* Define a largura da tabela */
+    margin: 0 auto; /* Isso vai centralizar a tabela dentro da section */
+}
+img {
+    display: block;/*faz a imagem se comportar como um bloco*/
+    margin-left: auto; /*centraliza a imagem horizontalmente*/
+    margin-right: auto; /*centraliza a imagem horizontalmente*/
+    width: 30%;
+}
+th {
+    border: 1px solid #000; /*borda das células*/
+    text-align: left; /*alinha o texto à esquerda*/
+    padding: 8px; /*espaçamento interno*/
+    background-color: #000; /* Fundo preto */
+    color: #fff;            /* Texto branco */
+}
+tr,td{
+    border: 1px solid #dddddd; /*borda das células*/
+    text-align: left; /*alinha o texto à esquerda*/
+    padding: 8px; /*espaçamento interno*/
+}
+ul, ol {
+    font-size: 20px; /* Aumenta o tamanho da fonte para melhor legibilidade */
+    padding-left: 25px; /* Adiciona espaçamento à esquerda */
+    line-height: 1.8; /* Aumenta o espaço entre as linhas para facilitar a leitura */
+}
+
+h3 {
+    font-size: 24px;
+    color: #030303;
+    text-transform: uppercase; /* Deixa o texto em maiúsculas */
+    letter-spacing: 1px; /* Adiciona espaçamento entre as letras */
+}
+p{
+    font-size: 16px;
+    text-align: justify; /* Justifica o texto */
+    line-height: 1.6;
+
+}
+footer {
+    font-size: 20px; 
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #000000;
+}
+
+section {
+    max-width: 800px; /* Define um limite de largura */
+    margin: 0 auto;   /* Centraliza o bloco na tela */
+    padding: 20px; /* Adiciona espaçamento interno */
+}
+
+
+body { padding-bottom: 500px; } /* Adiciona espaço no final da página para evitar sobreposição com o rodapé */
