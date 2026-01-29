@@ -30,3 +30,62 @@ h2{
 #titulo1{
     border-bottom: 2px solid green;
 }
+/*nome de cores */
+.color-name{
+    color: purple;
+}
+/*cores hexadecimais */
+.hex{
+    color: #ff8521
+}
+.hex2{
+    color: #00ff00;
+}
+/*cores hexadecimais curtas */
+.hex3{
+    color: #ff3;
+}
+/*rgb*/
+.rgb{
+    color: rgb(255,0,255);
+}
+/*rgba*/
+.rgba{
+    color: rgba(255,187,41,0.5); /*0.5 = 50% de transparencia*/
+}
+/*hsl*/
+.hsl{
+    color: hsl(120,100%,50%); /*hue, saturation, lightness*/
+}
+/*bgcolor*/
+.bg{
+    background-color: #00ff00;
+    color: white;
+}
+/*bgopacity*/
+.opacity-bg{
+    color: white;
+    background-color: green; 
+    opacity: 0.7;
+}
+/*bgrgba*/
+.rgba-bg{
+    background-color: rgba(0,0,255,0.8);
+    color: white;
+}
+/*bg-image*/
+.bg-image{
+    background-image:url("../img/nature.jpg");
+    padding: 10px;
+    color: white;
+}
+/*bg - position*/
+.bg-center, .bg-nocenter{
+    background-image:url(../img/bridge.jpg);
+    width: 500px;
+    height: 500px;
+}
+.bg-center{
+    background-position: center;
+    background-size: cover;
+}
