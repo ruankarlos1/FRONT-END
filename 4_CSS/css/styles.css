@@ -135,7 +135,7 @@ h2{
     color: #eeeaea;
     width: 400px;
     padding: 50px;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 .border{
     border: 5px solid red;
@@ -154,4 +154,215 @@ h2{
     background-color: #111;
     border-bottom: 5px solid blue;
     padding: 25px;
+}
+
+.border-radius{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    border: 4px solid #1d37cc;
+}
+.border-radius2{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+}
+.margin{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    margin: 30px;
+}
+.margin-top{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    margin-top: 15px;
+}
+.shorthand-margin{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    margin: 10px 5px 10px 20px; /*top and bottom, right and left */
+}
+.box-model{
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    border: 5px solid red;
+    margin: 15px;
+    border-radius: 10px;
+
+}
+.text-align-center{
+    text-align: center;
+    width: 300px;
+    border: 1px solid red;
+}
+.text-align-right{
+    text-align: right;
+    
+}
+.text-decoration-underline{
+    text-decoration: underline;
+}
+.text-decoration-line-through{
+    text-decoration: line-through;
+}
+.text-decoration-none{
+    text-decoration: none;
+}
+.text-transform-uppercase{
+    text-transform: uppercase;
+}
+.text-transform-lowercase{
+    text-transform: lowercase;
+}
+.letter-spacing{
+    letter-spacing: 5px;
+}
+
+.serif{
+    font-family: 'Times New Roman', serif;
+}
+.sans-serif{
+    font-family: Arial, sans-serif;
+}
+.cursive{
+    font-family: 'Brush Script MT', cursive;
+}
+.monospace{
+    font-family: 'Courier New', monospace;
+}
+.fantasy{
+    font-family: 'Impact', fantasy;
+}
+.font-style-italic{
+    font-style: italic;
+}
+.font-style-oblique{
+    font-style: oblique;
+}
+.thin.bold.bolder{
+    font-family: Helvetica;
+}
+.thin{
+    font-weight: 100;
+}
+.bold{
+    font-weight: 700;
+}
+.bolder{
+    font-weight: 900;
+}
+
+.small{
+    font-size: 6px;
+}
+.medium{
+    font-size: 40px;
+}
+.inline-box{
+    width: 15px;
+    height: 15px;
+    background-color: #4f8 ;
+    margin:10px;
+    display: inline-block;/* transforma o elemento em bloco, mas mantem na mesma linha */
+}
+.block{
+    display: block;
+}
+.invisible{
+    display:none;
+}
+.static{
+    position: static;
+    background-color: orange;
+    padding: 10px;
+    width: 100px; 
+    height: 100px;
+}
+.relative{
+    position: relative;
+    background-color: red;
+    padding: 10px;
+    width: 100px; 
+    height: 100px;
+    top: 100px;
+    left: 50px;
+}
+.absolute{
+    position: absolute;
+    background-color: red;
+    padding: 10px;
+    width: 100px; 
+    height: 100px;
+    top: 2px;
+    right: 2px;
+}
+.relative-contanier{
+    width: 300px;
+    height: 300px;
+    border:1px solid red;
+    margin-top: 120px;
+    position: relative;
+}
+.absolute-1, .absolute-2{
+    width:50px;
+    height:50px;
+    position: absolute;
+    background-color: #422;
+}
+.absolute-1{
+    top: 10px;
+    left: 10px;
+    position: relative;
+}
+.absolute-2{
+    bottom: 10px;
+    right: 10px;
+}
+
+.fixed{
+    position: fixed;
+    background-color: red;
+    top: 10px;
+    right: 10px;
+}
+.sticky{
+    position: sticky;
+    background-color: red;
+    border: 1px solid green;
+    width: 100px; 
+    height: 100px;
+    top: 10px;
+}
+.absolute-3, .absolute-4
+, .absolute-5{
+    width:50px;
+    height:50px;
+    position: absolute;
+    background-color: #4f8;
+
+}
+.absolute-3{
+    top:0;
+    left:0;
+    background-color: rgb(247, 5, 5);
+    z-index: 1;
+}
+.absolute-4{
+    top: 10px;
+    left:10px;
+    background-color:#00ff00;
+    z-index: 0;
+}
+.absolute-5{
+    top: 40px;
+    left:40px;
+    background-color:#1d37cc;
+    z-index: 3;
+
 }
